@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="bitcoin.app.com.coinsafe.Home.contactUs">
+
+    <include layout="@layout/toolbar"
+        android:id="@+id/toolbar"></include>
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="50dp"
+       android:layout_margin="40dp"
+       android:background="@drawable/corner">
+       <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+           android:spinnerMode="dropdown"
+            android:prompt="@string/spinner_title"/>
+
+   </LinearLayout>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:hint="Description"
+        android:layout_gravity="start"
+        android:gravity="start"
+        android:padding="10dp"
+        android:background="@drawable/corner"
+        android:layout_margin="40dp"/>
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="SUBMIT"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/login_button_background"
+        android:layout_margin="20dp"
+        android:textColor="#ffffff"
+        android:padding="10dp"
+        />
+
+
+</LinearLayout>

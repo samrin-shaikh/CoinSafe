@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="bitcoin.app.com.coinsafe">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_cinsafe"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_cinsafe"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Login.SplashScreen"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".HowIItWorks.How_It_Works"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Login.Login_Signup_tabbed"
+            android:theme="@style/Theme.AppCompat.NoActionBar"
+            android:windowSoftInputMode="adjustPan|adjustResize" />
+        <activity
+            android:name=".Home.Home"
+            android:label="@string/title_activity_home"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="adjustPan|adjustResize" />
+        <activity
+            android:name=".Verification.Account_verification"
+            android:label="Account Verification"
+            android:windowSoftInputMode="adjustPan|adjustResize" />
+        <activity
+            android:name=".Mobile_Verification.mobile_verification"
+            android:theme="@style/Theme.AppCompat.NoActionBar"
+            android:windowSoftInputMode="adjustPan|adjustResize" />
+        <activity
+            android:name=".Mobile_Verification.confirm_verification"
+            android:label="Enter Verification Code"
+            android:windowSoftInputMode="adjustPan|adjustResize" />
+        <activity
+            android:name=".Home.contactUs"
+            android:label="Contact Us"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="adjustPan|adjustResize" />
+        <activity
+            android:name=".Payment.Payment"
+            android:label="Payment"
+            android:windowSoftInputMode="adjustPan|adjustResize" />
+        <activity
+            android:name=".Buy.buy"
+            android:label="Buy"
+            android:windowSoftInputMode="adjustPan|adjustResize" />
+        <activity android:name=".Profile.User_Profle" />
+        <activity android:name=".Trade.Trade_List"></activity>
+    </application>
+
+</manifest>

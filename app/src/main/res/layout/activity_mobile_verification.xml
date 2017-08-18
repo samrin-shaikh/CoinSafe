@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eeeeee"
+    tools:context="bitcoin.app.com.coinsafe.Mobile_Verification.mobile_verification">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Verify Your Phone Number"
+                android:textSize="23sp"
+                android:layout_gravity="center_horizontal"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:typeface="sans"
+                android:layout_margin="20dp"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/mob_icon"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="20dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:text="CoinSafe will send a one time SMS message to verify your phone number .Carrier charges may apply"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2.0dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/dotted"></View>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="Please confirm country code and enter your 10 digit mobile number"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal"
+                android:textSize="16sp"
+                android:layout_margin="10dp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/corner"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+                <EditText
+                    android:layout_width="240dp"
+                    android:layout_height="wrap_content"
+                    android:hint="India"
+                    android:layout_margin="5dp"
+                    android:textSize="15sp"
+                    android:padding="10dp"
+                    android:textColorHint="@color/gray"
+                    android:backgroundTint="#ffffff"
+                    />
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="15dp"
+                    android:background="@drawable/login_button_background"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/downarrow"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/corner"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="+91"
+                    android:textColor="@color/gray"
+                    android:layout_margin="5dp"
+                    android:padding="10dp"/>
+                <View
+                    android:layout_width="1.0dp"
+                    android:layout_height="match_parent"
+                    android:background="#30000000"
+                    android:layout_margin="5dp"></View>
+                <EditText
+                    android:layout_width="175dp"
+                    android:layout_height="wrap_content"
+                    android:hint="Mobile No"
+                    android:layout_margin="5dp"
+                    android:textSize="15sp"
+                    android:padding="10dp"
+                    android:textColorHint="@color/gray"
+                    android:backgroundTint="#ffffff"
+                    />
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="15dp"
+                    android:background="@drawable/login_button_background"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/mobile"/>
+
+            </LinearLayout>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/signup_button_background"
+                android:text="ACCEPT AND CONTONUE"
+                android:textColor="#ffffff"
+                android:padding="10dp"
+                android:id="@+id/accept_and_continue"
+                android:layout_margin="10dp"
+                android:layout_gravity="center_horizontal"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="I hhave read and agree to all"
+                android:textSize="15sp"
+                android:textColor="@color/black"
+                android:layout_gravity="center_horizontal"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Terms and Conditions"
+                android:textSize="15sp"
+                android:textColor="@color/colorPrimary"
+                android:layout_marginBottom="50dp"
+                android:layout_gravity="center_horizontal"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

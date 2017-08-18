@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#EEeeee"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    >
+    <include layout="@layout/toolbar"
+        android:id="@+id/toolbar"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:padding="20dp"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal"
+                android:background="@drawable/amount_bg">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1,26,434"
+                    android:textSize="25sp"
+                    android:textColor="@color/colorPrimary"
+                    android:layout_margin="10dp"/>
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/bitcoin"/>
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:src="@drawable/walletii"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/corner"
+                    android:layout_weight="1"
+                    android:layout_margin="20dp"
+                    android:orientation="horizontal">
+                    <EditText
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:hint="ONLINE PAYMENT"
+                        android:textSize="15sp"
+                        android:padding="10dp"
+                        android:textColorHint="@color/gray"
+                        android:backgroundTint="#ffffff"
+                        />
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="10dp"
+                        android:background="@drawable/login_button_background"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/buy"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/corner"
+                    android:layout_weight="1"
+                    android:layout_margin="20dp"
+                    android:orientation="horizontal">
+                    <EditText
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:hint="MONEY TRANSFER"
+                        android:textSize="15sp"
+                        android:padding="10dp"
+                        android:textColorHint="@color/gray"
+                        android:backgroundTint="#ffffff"
+                        />
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="10dp"
+                        android:background="@drawable/signup_button_background"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/sell"/>
+
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2.0dp"
+                android:background="@drawable/dotted"
+                android:layout_margin="15dp"></View>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

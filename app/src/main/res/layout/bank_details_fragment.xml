@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+>        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="50dp"
+        android:layout_marginBottom="50dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Bank account name or PAN card name should be same "
+                android:gravity="center_horizontal"
+                android:layout_gravity="center_horizontal"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2.0dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/dotted"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/corner"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="30dp"
+                android:orientation="horizontal">
+                <EditText
+                    android:layout_width="240dp"
+                    android:layout_height="wrap_content"
+                    android:hint="IFSC CODE"
+                    android:layout_margin="5dp"
+                    android:textSize="15sp"
+                    android:padding="10dp"
+                    android:textColorHint="@color/gray"
+                    android:backgroundTint="#ffffff"
+                    />
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="15dp"
+                    android:background="@color/colorPrimary"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/ifsc"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/corner"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+                <EditText
+                    android:layout_width="240dp"
+                    android:layout_height="wrap_content"
+                    android:hint="BANK NAME"
+                    android:layout_margin="5dp"
+                    android:textSize="15sp"
+                    android:padding="10dp"
+                    android:textColorHint="@color/gray"
+                    android:backgroundTint="#ffffff"
+                    />
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="15dp"
+                    android:background="@color/colorPrimary"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/ic_account_balance_black_24dp"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/corner"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+                <EditText
+                    android:layout_width="240dp"
+                    android:layout_height="wrap_content"
+                    android:hint="BRANCH NAME"
+                    android:layout_margin="5dp"
+                    android:textSize="15sp"
+                    android:padding="10dp"
+                    android:textColorHint="@color/gray"
+                    android:backgroundTint="#ffffff"
+                    />
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="15dp"
+                    android:background="@color/colorPrimary"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/bankname"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/corner"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+                <EditText
+                    android:layout_width="240dp"
+                    android:layout_height="wrap_content"
+                    android:hint="ACCOUNT HOLDER NAME"
+                    android:layout_margin="5dp"
+                    android:textSize="15sp"
+                    android:padding="10dp"
+                    android:textColorHint="@color/gray"
+                    android:backgroundTint="#ffffff"
+                    />
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="15dp"
+                    android:background="@color/colorPrimary"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/fname"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/corner"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+                <EditText
+                    android:layout_width="240dp"
+                    android:layout_height="wrap_content"
+                    android:hint="ACCOUNT NUMBER"
+                    android:layout_margin="5dp"
+                    android:textSize="15sp"
+                    android:padding="10dp"
+                    android:textColorHint="@color/gray"
+                    android:backgroundTint="#ffffff"
+                    />
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="15dp"
+                    android:background="@color/colorPrimary"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/accountnumber"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/corner"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+                <EditText
+                    android:layout_width="240dp"
+                    android:layout_height="wrap_content"
+                    android:hint="CONFIRM ACCOUNT NUMBER"
+                    android:layout_margin="5dp"
+                    android:textSize="15sp"
+                    android:padding="10dp"
+                    android:textColorHint="@color/gray"
+                    android:backgroundTint="#ffffff"
+                    />
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="15dp"
+                    android:background="@color/colorPrimary"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/accountnumber"/>
+
+            </LinearLayout>
+
+            <Button
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/login_button_background"
+                android:text=" SUBMIT "
+                android:textColor="#ffffff"
+                android:layout_weight="1"
+                android:padding="10dp"
+                android:textSize="20sp"
+                android:layout_margin="20dp"
+                android:layout_gravity="center_horizontal"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

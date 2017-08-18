@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "868609506203",
+    "project_id": "coin-safe"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:868609506203:android:22f885de5918b19f",
+        "android_client_info": {
+          "package_name": "bitcoin.app.com.coinsafe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "868609506203-pl07lt9r2iaoclan2hm9o6trj3j4l7v9.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "868609506203-op0nkls8h4n6v12i97l7g13g475nu60a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "bitcoin.app.com.coinsafe",
+            "certificate_hash": "6d90a8be241ea1c88743bd29c4987e2728b7997a"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBxSItjBPkF8xkbizld1Xgqp-XSHfWqfaQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

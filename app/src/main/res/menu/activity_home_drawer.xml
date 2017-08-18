@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/sell"
+            android:title="Profile" />
+        <item
+            android:id="@+id/nav_payment"
+            android:icon="@drawable/sell"
+            android:title="Payment" />
+        <item
+            android:id="@+id/nav_buy"
+            android:icon="@drawable/buy"
+            android:title="Buy" />
+        <item
+            android:id="@+id/nav_sell"
+            android:icon="@drawable/fname"
+            android:title="Sell" />
+        <item
+            android:id="@+id/navacc_veri"
+            android:icon="@drawable/fname"
+            android:title="Account Verification" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/call"
+                android:title="Contact Us" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_exit_to_app_black_24dp"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+</menu>
