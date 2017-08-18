@@ -60,7 +60,15 @@ public class How_It_Works extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent=new Intent(getApplicationContext(), Login_Signup_tabbed.class);
+                viewPager.setCurrentItem(1);
                 startActivity(intent);
+            }
+        });
+        signup.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                viewPager.setCurrentItem(2);
+
             }
         });
 

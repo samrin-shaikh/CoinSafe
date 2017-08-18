@@ -21,23 +21,50 @@
                 android:layout_height="60dp"
                 android:layout_weight="1"
                 android:orientation="horizontal">
-                <TextView
-                    android:layout_width="130dp"
+                <EditText
+                    android:layout_width="150dp"
                     android:layout_height="wrap_content"
-                    android:text="User Id"
+                    android:hint="Enter User Id"
                     android:textSize="20sp"
                     android:textColor="@color/colorPrimary"
                     android:textStyle="bold"
                     android:padding="10dp"
+                    android:background="#ffffff"
                     android:id="@+id/user_id"
                    />
-                <TextView
+                <Button
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textSize="20sp"
+                    android:textSize="15sp"
                     android:textColor="@color/colorPrimary"
                     android:padding="10dp"
+                    android:text="View Profile Details"
                     android:id="@+id/user_id_detail"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:text="UId"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorPrimary"
+                    android:padding="10dp"
+                    android:id="@+id/uid"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:padding="10dp"
+                    android:textColor="@color/colorPrimary"
+                    android:id="@+id/uid_detail"
                     />
 
             </LinearLayout>

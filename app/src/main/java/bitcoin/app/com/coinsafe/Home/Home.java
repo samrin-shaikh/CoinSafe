@@ -19,6 +19,8 @@ import bitcoin.app.com.coinsafe.Buy.buy;
 
 import bitcoin.app.com.coinsafe.Login.UserInfo;
 import bitcoin.app.com.coinsafe.Payment.Payment;
+import bitcoin.app.com.coinsafe.Profile.Profile;
+import bitcoin.app.com.coinsafe.Profile.User_Detail;
 import bitcoin.app.com.coinsafe.Profile.User_Profle;
 import bitcoin.app.com.coinsafe.R;
 import bitcoin.app.com.coinsafe.Mobile_Verification.*;
@@ -90,7 +92,7 @@ public class Home extends AppCompatActivity
 
         }
         else if (id == R.id.nav_profile) {
-            Intent intent=new Intent(getApplicationContext(),User_Profle.class);
+            Intent intent=new Intent(getApplicationContext(),Profile.class);
             startActivity(intent);
 
         }else if (id == R.id.nav_buy) {
