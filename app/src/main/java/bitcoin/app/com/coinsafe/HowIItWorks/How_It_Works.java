@@ -4,6 +4,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.graphics.Color;
 import android.os.Build;
+import android.support.design.widget.TabLayout;
 import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
@@ -16,6 +17,8 @@ import android.view.Window;
 import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.LinearLayout;
+import android.widget.TabHost;
+import android.widget.TableLayout;
 import android.widget.TextView;
 
 import bitcoin.app.com.coinsafe.Login.Login;
@@ -31,7 +34,9 @@ public class How_It_Works extends AppCompatActivity {
     private Button btnSkip, btnNext;
     private PrefManager prefManager;
     private Button login,signup;
+    TabLayout tabLayout;
 
+    TabHost tabHost;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -54,21 +59,26 @@ public class How_It_Works extends AppCompatActivity {
         btnSkip = (Button) findViewById(R.id.btn_skip);
         btnNext = (Button) findViewById(R.id.btn_next);
 
+//        //viewPager.setCurrentItem(1);
+//
+        tabLayout = (TabLayout) findViewById(R.id.tabLayout);
+//        tab.setupWithViewPager(viewPager);
         login = (Button) findViewById(R.id.login_button);
         signup = (Button) findViewById(R.id.signup_button);
         login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent=new Intent(getApplicationContext(), Login_Signup_tabbed.class);
-                viewPager.setCurrentItem(1);
+                viewPager.setCurrentItem(0);
                 startActivity(intent);
             }
         });
         signup.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                viewPager.setCurrentItem(2);
-
+                Intent intent=new Intent(getApplicationContext(), Login_Signup_tabbed.class);
+                viewPager.setCurrentItem(1);
+                startActivity(intent);
             }
         });
 
